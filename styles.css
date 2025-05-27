@@ -9,7 +9,7 @@ body {
 /* Navbar */
 
 .navbar img {
-    height: 70px; /* Ajusta necesario */
+    height: 90px; /* Ajusta necesario */
     width: auto; /* Mantiene la proporción */
     object-fit: contain; /* Evita que la imagen se recorte */
     vertical-align: middle; /* Alineación vertical */
@@ -23,7 +23,7 @@ body {
 }
 
 .navbar-custom {
-    background-color: #f6d0f1;
+    background-color: #97A783;
     z-index: 1000; /* Asegura que el navbar esté por encima de otros elementos */
 }
 
