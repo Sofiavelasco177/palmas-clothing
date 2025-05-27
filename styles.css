@@ -29,14 +29,14 @@ body {
 
 .navbar a,
 .navbar button {
-    color: #5A3E6B !important;
+    color: #97A783 !important;
     font-weight: bold;
     text-decoration: none;
 }
 
 .navbar a:hover,
 .navbar button:hover {
-    color: #402B55 !important;
+    color:#97A783 !important;
 }
 
 .navbar-brand {
@@ -86,7 +86,7 @@ header p {
 }
 
 .card button {
-    background-color: #ca79d8;
+    background-color: #97A783;
     color: white;
 }
 .card {
@@ -107,7 +107,7 @@ header p {
 
 /* Formulario de contacto */
 form {
-    background-color: #d49ade;
+    background-color:#97A783;
     padding: 20px;
     border-radius: 20px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -118,7 +118,7 @@ button {
 }
 
 button:hover {
-    background: #ae30d5;
+    background: #3f6117;
 }
 /*corrusel*/
 .carousel-inner img {
@@ -162,13 +162,13 @@ button:hover {
 
 /* Botón de agendar cita */
 .service-card .btn {
-    background-color: #af5fe1;
+    background-color:#97A783;
     color: white;
     font-weight: bold;
 }
 footer {
     background: #E6DFF1; /* Lila pastel */
-    color: #5A3E6B; /* Tono oscuro para contraste */
+    color: #97A783; /* Tono oscuro para contraste */
     padding: 30px;
     display: flex;
     justify-content: space-between;
@@ -212,7 +212,7 @@ i svg {
 hr {
     border: 0;
     height: 1px;
-    background: #C2A3D1; /* Borde en un tono más oscuro */
+    background:#707d62; /* Borde en un tono más oscuro */
     margin: 10px 0;
 }
 
