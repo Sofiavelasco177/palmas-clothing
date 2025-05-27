@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WB pets - Productos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light navbar-custom fixed-top">
+        <div class="container">
+            <img src="Logo a.png" height= "100"  alt="Imagen 1">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="inicio.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="nosotros.html">Sobre Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="carrito.html">🛒 Carrito</a></li>
+                  
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+<div class="container py-5">
+    <h2 class="text-center mb-4">Nuestros Productos</h2>
+    <h3 class="text-center mb-4">Caninos</h3>
+    <div class="row">
+
+
+        <div class="col-md-4">
+            <div class="card">
+                <img src="imagenes/productos/deslanador.jpg" class="card-img-top" alt="Producto 2">
+                <div class="card-body">
+                    <h5 class="card-title">Deslanador para caninos</h5>
+                    <p class="card-text">Quita el pelo muerto de tu canino.</p>
+                    <p class="card-text">38.000</p>
+                    <button class="btn btn-info" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#detalle-producto"
+                        data-bs-nombre="Deslanador para caninos"
+                        data-bs-precio="38.000"
+                        data-bs-descripcion="El mejor deslanador para mantener el pelaje de tu mascota, sano y libre de pelo muerto.">
+                        Ver detalles
+                    </button>
+                    <button class="btn btn-primary agregar-carrito" 
+                    data-nombre="Deslanador para caninos" 
+                    data-precio="38.000">Agregar al carrito
+                </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <img src="imagenes/productos/transportador.jpg" class="card-img-top" alt="Producto 2">
+                <div class="card-body">
+                    <h5 class="card-title">Transportador para caninos</h5>
+                    <p class="card-text">Espacio comodo para que tu canino viaje tranquilo.</p>
+                    <p class="card-text">90.000</p>
+                    <button class="btn btn-info" 
+                    data-bs-toggle="modal" 
+                    data-bs-target="#detalle-producto"
+                    data-bs-nombre="Transportador para caninos."
+                    data-bs-precio="90.000"
+                    data-bs-descripcion="Comodo para poder tranportar a tu mascota a cualquier lugar.">
+                    Ver detalles
+                    </button>
+                    <button class="btn btn-primary agregar-carrito" 
+                    data-nombre="Transportador para caninos" 
+                    data-precio="90.000">Agregar al carrito
+                </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <img src="imagenes/productos/gimnasio gatos.jpg" class="card-img-top" alt="Producto 2">
+                <div class="card-body">
+                    <h5 class="card-title">Gimnasio para gatos</h5>
+                    <p class="card-text">Entretenedor y ejercitador para tu gato.</p>
+                    <p class="card-text">100.000</p>
+                    <button class="btn btn-info" 
+                    data-bs-toggle="modal" 
+                    data-bs-target="#detalle-producto"
+                    data-bs-nombre="Gimnasio para gatos."
+                    data-bs-precio="100.000"
+                    data-bs-descripcion="Entretenedor y ejercitador para tu gato.">
+                    Ver detalles
+                    </button>
+                    <button class="btn btn-primary agregar-carrito"
+                     data-nombre="Gimnasio para gatos" 
+                     data-precio="100.000">Agregar al carrito
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <img src="imagenes/productos/alimento.webp" class="card-img-top" alt="Producto 3">
+                    <h5 class="card-title">Alimento  Medium </h5>
+                    <p class="card-text">Alimento para tu cachorro 'Royal canin 500 gr'.</p>
+                    <p class="card-text">$20.000</p>
+                    <button class="btn btn-info" 
+                    data-bs-toggle="modal" 
+                    data-bs-target="#detalle-producto"
+                    data-bs-nombre="Alimento Medium."
+                    data-bs-precio="20.000"
+                    data-bs-descripcion="El mejor alimento nutritivo para tu cachorrito.">
+                    Ver detalles
+                    </button>
+                    <button class="btn btn-primary agregar-carrito"
+                     data-nombre="Alimento Medium" 
+                     data-precio="20.000">Agregar al carrito
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <img src="imagenes/productos/colchon.jpg" class="card-img-top" alt="Producto 4">
+                <div class="card-body">
+                    <h5 class="card-title">colchones suaves y termicos</h5>
+                    <p class="card-text">Suave y calientito para tu mascota.</p>
+                    <p class="card-text">Size: XL</p>
+                    <p class="card-text">$15.000</p>
+                    <button class="btn btn-info" 
+                    data-bs-toggle="modal" 
+                    data-bs-target="#detalle-producto"
+                    data-bs-nombre="Colchones suaves y termicos."
+                    data-bs-precio="15.000"
+                    data-bs-descripcion="Suave y calientito para tu mascota.">
+                    Ver detalles
+                    </button>
+                    <button class="btn btn-primary agregar-carrito" 
+                    data-nombre="colchones suaves y termicos" 
+                    data-precio="15.000">Agregar al carrito
+                </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <img src="imagenes/productos/kit.jpg" class="card-img-top" alt="Producto 2">
+                <div class="card-body">
+                    <h5 class="card-title">Kit de aseo</h5>
+                    <p class="card-text">Lo mejor en productos para el aseo de tu mejor amigo.</p>
+                    <p class="card-text">80.000</p>
+                    <button class="btn btn-info" 
+                    data-bs-toggle="modal" 
+                    data-bs-target="#detalle-producto"
+                    data-bs-nombre="Kit de aseo."
+                    data-bs-precio="80.000"
+                    data-bs-descripcion="Lo mejor en productos para el aseo de tu mejor amigo.">
+                    Ver detalles
+                    <button class="btn btn-primary agregar-carrito"
+                     data-nombre="Kit de aseo" 
+                     data-precio="80.000">Agregar al carrito
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-4">
+            <div class="card">
+                <img src="imagenes/productos/collar.jpg" class="card-img-top" alt="Producto 2">
+                <div class="card-body">
+                    <h5 class="card-title">Collar para gatos</h5>
+                    <p class="card-text">Lindo y comodo para tu gato.</p>
+                    <p class="card-text">28.000</p>
+                    <button class="btn btn-info" 
+                    data-bs-toggle="modal" 
+                    data-bs-target="#detalle-producto"
+                    data-bs-nombre="Collar para gatos."
+                    data-bs-precio="28.000"
+                    data-bs-descripcion="Lindo y comodo para tu gato.">
+                    Ver detalles
+                    </button>
+                    <button class="btn btn-primary agregar-carrito" 
+                    data-nombre="Collar para gatos" 
+                    data-precio="28.000">Agregar al carrito
+                </button>
+                </div>
+            </div>
+        </div>
+       
+        <div class="col-md-4">
+            <div class="card">
+                <img src="imagenes/productos/pecera.jpg" class="card-img-top" alt="Producto 2">
+                <div class="card-body">
+                    <h5 class="card-title">Pecera pequeña</h5>
+                    <p class="card-text">Linda y comoda para tus peces.</p>
+                    <p class="card-text">38.000</p>
+                    <button class="btn btn-info" 
+                    data-bs-toggle="modal" 
+                    data-bs-target="#detalle-producto"
+                    data-bs-nombre="Pecera pequeña."
+                    data-bs-precio="38.000"
+                    data-bs-descripcion="linda y comoda para tus peces.">
+                    Ver detalles
+                    </button>
+                    <button class="btn btn-primary agregar-carrito" 
+                    data-nombre="Pecera pequeña" 
+                    data-precio="38.000">Agregar al carrito
+                </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="imagenes/productos/comedero de aves.jpg" class="card-img-top" alt="Producto 2">
+                <div class="card-body">
+                    <h5 class="card-title">Comedero para aves</h5>
+                    <p class="card-text">Comoda para alcenar la comida de tus aves.</p>
+                    <p class="card-text">32.000</p>
+                    <button class="btn btn-info" 
+                    data-bs-toggle="modal" 
+                    data-bs-target="#detalle-producto"
+                    data-bs-nombre="Comedero para aves."
+                    data-bs-precio="32.000"
+                    data-bs-descripcion="Comoda para almacenar la comida de tus aves.">
+                    Ver detalles
+                    </button>
+                    <button class="btn btn-primary agregar-carrito" 
+                    data-nombre="Comedero Para Aves" 
+                    data-precio="32.000">Agregar al carrito
+                </button>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <h2 class="text-center mb-4">Nuevos Productos </h2>
+
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <img src="imagenes/productos/nuevo producto can.jpg" class="card-img-top" alt="Producto 3">
+                <h5 class="card-title">Alimento para perros cachorros </h5>
+                <p class="card-text">El mejor alimento nutritivo que ayuda al crecimiento  sano de tu cachorro.</p>
+                <p class="card-text">$20.000</p>
+                <button class="btn btn-info" 
+                    data-bs-toggle="modal" 
+                    data-bs-target="#detalle-producto"
+                    data-bs-nombre="Alimento para cachorros."
+                    data-bs-precio="20.000"
+                    data-bs-descripcion="El mejor alimento nutritivo que ayuda al crecimiento  sano de tu cachorro.">
+                    Ver detalles
+                </button>
+                <button class="btn btn-primary agregar-carrito"
+                 data-nombre="Alimento para perros cachorros" 
+                 data-precio="20.000">Agregar al carrito
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <img src="imagenes/productos/comida humeda para gatos.jpg" class="card-img-top" alt="Producto 4">
+                <h5 class="card-title">Comida Humeda Gatos</h5>
+                <p class="card-text">Nutritiva y ayuda al crecimiento sano de tu gatuno</p>
+                <p class="card-text">$16.000</p>
+                <button class="btn btn-info" 
+                data-bs-toggle="modal" 
+                data-bs-target="#detalle-producto"
+                data-bs-nombre="Comida humeda para gatos."
+                data-bs-precio="16.000"
+                data-bs-descripcion="Nutritiva y ayuda al crecimiento sano de tu gatuno.">
+                Ver detalles
+                </button>
+                <button class="btn btn-primary agregar-carrito" 
+                data-nombre="Comida Humeda Para Gatos"
+                 data-precio="16.000">Agregar al carrito
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<!-- Modal de Detalles del Producto -->
+<div class="modal fade" id="detalle-producto" tabindex="-1" aria-labelledby="detalleProductoLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="detalleProductoLabel">Detalles del Producto</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <h5 id="modal-nombre"></h5>
+          <p id="modal-precio"></p>
+          <p id="modal-descripcion"></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var modal = document.getElementById('detalle-producto');
+    
+      modal.addEventListener('show.bs.modal', function (event) {
+        var button = event.relatedTarget; // Botón que abrió el modal
+        var nombre = button.getAttribute('data-bs-nombre');
+        var precio = button.getAttribute('data-bs-precio');
+        var descripcion = button.getAttribute('data-bs-descripcion');
+    
+        // Insertar valores en el modal
+        modal.querySelector('#modal-nombre').textContent = nombre;
+        modal.querySelector('#modal-precio').textContent = 'Precio: $' + precio;
+        modal.querySelector('#modal-descripcion').textContent = descripcion;
+      });
+    });
+    </script>
+
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const botonesAgregar = document.querySelectorAll(".agregar-carrito");
+
+        botonesAgregar.forEach(boton => {
+            boton.addEventListener("click", () => {
+                const nombre = boton.dataset.nombre;
+                const precio = boton.dataset.precio;
+
+                let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
+
+                const productoExistente = carrito.find(producto => producto.nombre === nombre);
+
+                if (productoExistente) {
+                    productoExistente.cantidad++;
+                } else {
+                    carrito.push({ nombre, precio, cantidad: 1 });
+                }
+
+                localStorage.setItem("carrito", JSON.stringify(carrito));
+                alert("Producto agregado al carrito");
+            });
+        });
+    });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
