@@ -168,7 +168,7 @@ button:hover {
 }
 footer {
     background: #e9f1df; /* Lila pastel */
-    color: #97A783; /* Tono oscuro para contraste */
+    color: black; /* Tono oscuro para contraste */
     padding: 30px;
     display: flex;
     justify-content: space-between;
