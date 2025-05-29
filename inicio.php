@@ -1,10 +1,4 @@
-<?php
-session_start();
-if (!isset($_SESSION['usuario'])) {
-    header("Location: login.php");
-    exit();
-}
-?>
+
 
 <!DOCTYPE html>
 <html lang="es">
@@ -26,12 +20,12 @@ if (!isset($_SESSION['usuario'])) {
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="inicio.html">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
-                    <li class="nav-item"><a class="nav-link" href="nosotros.html">Sobre Nosotros</a></li>
-                    <li class="nav-item"><a class="nav-link" href="carrito.html">Carrito</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="Login.html">Login </a></li>
+                    <li class="nav-item"><a class="nav-link" href="inicio.php">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="productos.php">Productos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.php">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Login.php">Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="nosotros.php">Sobre Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="carrito.php">🛒 Carrito</a></li>
                 </ul>
             </div>
         </div>
