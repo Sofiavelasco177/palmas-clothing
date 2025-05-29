@@ -240,16 +240,7 @@ hr {
     font-weight: bold;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
 }
-body {
- 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #333;
-}
+
 
 .login-container {
     
@@ -332,6 +323,17 @@ button[type="submit"]:active {
 
 .login-message.error {
     color: red;
+}
+.login-body{
+      background-image: url('image.png'); /* Asegúrate de que fondo.jpg esté en la misma carpeta o usa una ruta completa */
+      background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
 }
 
 
