@@ -14,7 +14,7 @@
 <body class="login-body"> 
     <div class="login-container">
         <h1>Login</h1>
-        <form id="loginForm">
+        <form   action="procesar_login.php"  acid="loginForm">
             <div class="input-group">
                 <label for="username">Username</label>
                 <input type="text" id="username" name="username" placeholder="Enter your username" required>
