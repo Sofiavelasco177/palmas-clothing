@@ -241,8 +241,7 @@ hr {
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
 }
 body {
-      background-image: url('image.png'); /* Asegúrate de que fondo.jpg esté en la misma carpeta o usa una ruta completa */
-      background-size: cover;
+ 
     display: flex;
     justify-content: center;
     align-items: center;
