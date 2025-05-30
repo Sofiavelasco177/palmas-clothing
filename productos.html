@@ -10,31 +10,32 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-custom flex-column align-items-center">
-    <div class="w-100 text-center py-2 navbar-logo">
-        <img src="LOGO.jpg" height="100" alt="Imagen 1">
-    </div>
-    <br>
-    <div class="w-100">
-        <ul class="navbar-nav flex-row justify-content-center w-100 gap-5">
-            <li class="nav-item flex-fill text-center"><a class="nav-link" href="inicio.html">Inicio</a></li>
-            <li class="nav-item flex-fill text-center"><a class="nav-link" href="productos.html">Productos</a></li>
-            <li class="nav-item flex-fill text-center"><a class="nav-link" href="contacto.html">Contacto</a></li>
-            <li class="nav-item flex-fill text-center"><a class="nav-link" href="nosotros.html">Sobre Nosotros</a></li>
-            <li class="nav-item flex-fill text-center"><a class="nav-link" href="carrito.html">Carrito</a></li>
-            <li class="nav-item flex-fill text-center"><a class="nav-link active" href="Login.html">Login</a></li>
-            <li class="nav-item flex-fill text-center">
-                <a class="whatsapp" href="https://wa.me/573232497247" target="_blank" title="Chatea con nosotros">
-                    <img src="wa.jpg" alt="WhatsApp" width="40" height="40">
-                </a>
-            </li>
-        </ul>
-    </div>
-</nav>
+    <nav class="navbar navbar-expand-lg navbar-light  navbar-custom fixed-top">
+        <div class="container">
+            <img src="LOGO.jpg" height= "100"  alt="Imagen 1">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="inicio.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="nosotros.html">Sobre Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="carrito.html">Carrito</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="Login.html">Login </a></li>
+                    <a class="whatsapp" href="https://wa.me/573232497247" target="_blank" title="Chatea con nosotros" img src="wa.jpg" alt="WhatsApp">
+                        <img src="wa.jpg" alt="WhatsApp" width="40" height="40">
+
+</a>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
 <br>
 <div class="container py-5">
-    <h2 class="text-center mb-4">Nuestro Catalogo.</h2>
+    <h2 class="text-center mb-4">Nuestro Catalogo</h2>
     
 
 
@@ -51,9 +52,7 @@
         <br>
     </div>
     <div class="row">
-
-
-        <div class="col-md-4">
+        <div class="col-md-4 mb-4">
             <div class="card">
                 <img src="zz2.jpg" class="card-img-top" alt="Producto 2">
                 <div class="card-body">
@@ -64,7 +63,7 @@
                         data-bs-toggle="modal" 
                         data-bs-target="#detalle-producto"
                         data-bs-nombre="New Balance FreshFoam"
-                        data-bs-precio="38.000"
+                        data-bs-precio="170.000"
                         data-bs-descripcion="Tiene una tecnologia de amortiguacion diseñada para proporcionaruna experiencia de carrera suave.">
                         Ver detalles
                     </button>
@@ -77,7 +76,7 @@
             </div>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4 mb-4">
             <div class="card">
                 <img src="r4.jpg" class="card-img-top" alt="Producto 2">
                 <div class="card-body">
@@ -93,20 +92,20 @@
                     Ver detalles
                     </button>
                     <button class="btn btn-primary agregar-carrito" 
-                    data-nombre="Transportador para caninos" 
+                    data-nombre="Air Jordan 4 Retro" 
                     data-precio="170.000">Agregar al carrito
                 </button>
                 </div>
             </div>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4 mb-4">
             <div class="card">
                 <img src="AG.jpg" class="card-img-top" alt="Producto 2">
                 <div class="card-body">
                     <h5 class="card-title">Adidas Gazelle</h5>
                     <p class="card-text">Las Adidas Gazelle son unas zapatillas clásicas de perfil bajo, reconocidas por su diseño retro, su parte superior de ante suave y las icónicas tres bandas laterales. Lanzadas originalmente en los años 60, combinan estilo urbano y deportivo con un toque vintage.</p>
-                    <p class="card-text">100.000</p>
+                    <p class="card-text">160.000</p>
                     <button class="btn btn-info" 
                     data-bs-toggle="modal" 
                     data-bs-target="#detalle-producto"
@@ -116,7 +115,7 @@
                     Ver detalles
                     </button>
                     <button class="btn btn-primary agregar-carrito"
-                    data-nombre="Gimnasio para gatos" 
+                    data-nombre="Adidas Gazelle" 
                     data-precio="160.000">Agregar al carrito
                     </button>
                 </div>
@@ -124,7 +123,7 @@
         </div>
 
 
-        <div class="col-md-4">
+        <div class="col-md-4 mb-4">
             <div class="card">
                 <div class="card-body">
                     <img src="TX.jpg" class="card-img-top" alt="Producto 3">
@@ -140,14 +139,14 @@
                     Ver detalles
                     </button>
                     <button class="btn btn-primary agregar-carrito"
-                    data-nombre="Alimento Medium" 
+                    data-nombre="Nike X Travis Scott" 
                     data-precio="160.000">Agregar al carrito
                     </button>
                 </div>
             </div>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4 mb-4">
             <div class="card">
                 <img src="n20.jpg" class="card-img-top" alt="Producto 4">
                 <div class="card-body">
@@ -164,183 +163,646 @@
                     Ver detalles
                     </button>
                     <button class="btn btn-primary agregar-carrito" 
-                    data-nombre="colchones suaves y termicos" 
+                    data-nombre="New Balance 2010." 
                     data-precio="160.000">Agregar al carrito
                 </button>
                 </div>
             </div>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4 mb-4">
             <div class="card">
-                <img src="imagenes/productos/kit.jpg" class="card-img-top" alt="Producto 2">
+                <img src="mm.jpg" class="card-img-top" alt="Producto 2">
                 <div class="card-body">
-                    <h5 class="card-title">Kit de aseo</h5>
-                    <p class="card-text">Lo mejor en productos para el aseo de tu mejor amigo.</p>
-                    <p class="card-text">80.000</p>
+                    <h5 class="card-title">Jordan 1 Retro High OG. </h5>
+                    <p class="card-text">Las Jordan 1 Retro High OG son una reedición icónica del modelo original de 1985, con diseño de caña alta, materiales premium y el logotipo "Nike Air" clásico. Combinan historia, estilo urbano y herencia del baloncesto en una silueta atemporal.
+</p>
+                    <p class="card-text">170.000</p>
                     <button class="btn btn-info" 
                     data-bs-toggle="modal" 
                     data-bs-target="#detalle-producto"
-                    data-bs-nombre="Kit de aseo."
-                    data-bs-precio="80.000"
-                    data-bs-descripcion="Lo mejor en productos para el aseo de tu mejor amigo.">
+                    data-bs-nombre="Jordan 1 Retro High OG."
+                    data-bs-precio="170.000"
+                    data-bs-descripcion="Las Jordan 1 Retro High OG son una reedición icónica del modelo original de 1985, con diseño de caña alta, materiales premium y el logotipo "Nike Air" clásico. Combinan historia, estilo urbano y herencia del baloncesto en una silueta atemporal.
+">
                     Ver detalles
                     <button class="btn btn-primary agregar-carrito"
-                     data-nombre="Kit de aseo" 
-                     data-precio="80.000">Agregar al carrito
+                    data-nombre="Jordan 1 Retro High OG." 
+                    data-precio="170.000">Agregar al carrito
                     </button>
                 </div>
             </div>
         </div>
-
-
-        <div class="col-md-4">
+        <div class="col-md-4 mb-4">
             <div class="card">
-                <img src="imagenes/productos/collar.jpg" class="card-img-top" alt="Producto 2">
+                <img src="ar.jpg" class="card-img-top" alt="Producto 2">
                 <div class="card-body">
-                    <h5 class="card-title">Collar para gatos</h5>
-                    <p class="card-text">Lindo y comodo para tu gato.</p>
-                    <p class="card-text">28.000</p>
+                    <h5 class="card-title">Alexander McQueen Oversized</h5>
+                    <p class="card-text">Alexander McQueen Oversized es una zapatilla de lujo con un diseño minimalista y elegante, caracterizada por su suela gruesa y detalles distintivos. Combina estilo contemporáneo con la artesanía de alta calidad de la marca, convirtiéndola en una opción popular para quienes buscan un toque de sofisticación en su calzado diario.</p>
+                    <p class="card-text">160.000</p>
                     <button class="btn btn-info" 
                     data-bs-toggle="modal" 
                     data-bs-target="#detalle-producto"
-                    data-bs-nombre="Collar para gatos."
-                    data-bs-precio="28.000"
-                    data-bs-descripcion="Lindo y comodo para tu gato.">
+                    data-bs-nombre="Alexander McQueen Oversized"
+                    data-bs-precio="160.000"
+                    data-bs-descripcion="Alexander McQueen Oversized es una zapatilla de lujo con un diseño minimalista y elegante, caracterizada por su suela gruesa y detalles distintivos. Combina estilo contemporáneo con la artesanía de alta calidad de la marca, convirtiéndola en una opción popular para quienes buscan un toque de sofisticación en su calzado diario.">
                     Ver detalles
                     </button>
                     <button class="btn btn-primary agregar-carrito" 
-                    data-nombre="Collar para gatos" 
-                    data-precio="28.000">Agregar al carrito
+                    data-nombre="Alexander McQueen Oversized" 
+                    data-precio="160.000">Agregar al carrito
                 </button>
                 </div>
             </div>
         </div>
-       
-        <div class="col-md-4">
+        <div class="col-md-4 mb-4">
             <div class="card">
-                <img src="imagenes/productos/pecera.jpg" class="card-img-top" alt="Producto 2">
+                <img src="nk.jpg" class="card-img-top" alt="Producto 2">
                 <div class="card-body">
-                    <h5 class="card-title">Pecera pequeña</h5>
-                    <p class="card-text">Linda y comoda para tus peces.</p>
-                    <p class="card-text">38.000</p>
+                    <h5 class="card-title">Nike M2K Tekno</h5>
+                    <p class="card-text">Las Nike M2K Tekno son zapatillas de estilo urbano que reinterpretan las clásicas Nike Air Monarch con un enfoque moderno y futurista. Su diseño robusto y de múltiples capas combina cuero auténtico, sintético y textil, ofreciendo una estética "chunky" inspirada en los años 90.  </p>
+                    <p class="card-text">170.000</p>
                     <button class="btn btn-info" 
                     data-bs-toggle="modal" 
                     data-bs-target="#detalle-producto"
-                    data-bs-nombre="Pecera pequeña."
-                    data-bs-precio="38.000"
-                    data-bs-descripcion="linda y comoda para tus peces.">
+                    data-bs-nombre="Nike M2K Tekno"
+                    data-bs-precio="170.000"
+                    data-bs-descripcion="Las Nike M2K Tekno son zapatillas de estilo urbano que reinterpretan las clásicas Nike Air Monarch con un enfoque moderno y futurista. Su diseño robusto y de múltiples capas combina cuero auténtico, sintético y textil, ofreciendo una estética "chunky" inspirada en los años 90. ">
                     Ver detalles
                     </button>
                     <button class="btn btn-primary agregar-carrito" 
-                    data-nombre="Pecera pequeña" 
-                    data-precio="38.000">Agregar al carrito
+                    data-nombre="Nike M2K Tekno" 
+                    data-precio="170.000">Agregar al carrito
                 </button>
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 mb-4">
             <div class="card">
-                <img src="imagenes/productos/comedero de aves.jpg" class="card-img-top" alt="Producto 2">
+                <img src="PM.jpg" class="card-img-top" alt="Producto 2">
                 <div class="card-body">
-                    <h5 class="card-title">Comedero para aves</h5>
-                    <p class="card-text">Comoda para alcenar la comida de tus aves.</p>
-                    <p class="card-text">32.000</p>
-                    <button class="btn btn-info" 
+                    <h5 class="card-title">Puma Slipstream Wild.</h5>
+                    <p class="card-text">Las Puma Slipstream Wild son una reinterpretación moderna de las clásicas zapatillas de baloncesto de los años 80, adaptadas al estilo urbano actual. Su diseño robusto y llamativo combina materiales de alta calidad como cuero y ante, ofreciendo una estética "chunky" que destaca en cualquier conjunto.</p>
+                    <p class="card-text">170.000</p>
+                    <button class="btn btn-info"
                     data-bs-toggle="modal" 
                     data-bs-target="#detalle-producto"
-                    data-bs-nombre="Comedero para aves."
-                    data-bs-precio="32.000"
-                    data-bs-descripcion="Comoda para almacenar la comida de tus aves.">
+                    data-bs-nombre="Puma Slipstream Wild."
+                    data-bs-precio="170.000"
+                    data-bs-descripcion="Las Puma Slipstream Wild son una reinterpretación moderna de las clásicas zapatillas de baloncesto de los años 80, adaptadas al estilo urbano actual. Su diseño robusto y llamativo combina materiales de alta calidad como cuero y ante, ofreciendo una estética "chunky" que destaca en cualquier conjunto.">
                     Ver detalles
                     </button>
                     <button class="btn btn-primary agregar-carrito" 
-                    data-nombre="Comedero Para Aves" 
-                    data-precio="32.000">Agregar al carrito
+                    data-nombre="Puma Slipstream Wild." 
+                    data-precio="170.000">Agregar al carrito
                 </button>
                 </div>
             </div>
         </div>
-
-
-    </div>
-
-    <h2 class="text-center mb-4">Nuevos Productos </h2>
-
-    <div class="col-md-4">
+    <div class="col-md-4 mb-4">
         <div class="card">
+            <img src="20.jpg" class="card-img-top" alt="Producto 3">
             <div class="card-body">
-                <img src="imagenes/productos/nuevo producto can.jpg" class="card-img-top" alt="Producto 3">
-                <h5 class="card-title">Alimento para perros cachorros </h5>
-                <p class="card-text">El mejor alimento nutritivo que ayuda al crecimiento  sano de tu cachorro.</p>
-                <p class="card-text">$20.000</p>
+                <h5 class="card-title">Adidas Grand Court 2.0</h5>
+                <p class="card-text">Las Adidas Grand Court 2.0 son zapatillas de estilo clásico inspiradas en el tenis, que combinan un diseño limpio y versátil con comodidad moderna. Cuentan con una parte superior de cuero sintético duradero y una plantilla Cloudfoam Comfort de doble capa, que proporciona una amortiguación suave para el uso diario.</p>
+                <p class="card-text">$160.000</p>
                 <button class="btn btn-info" 
                     data-bs-toggle="modal" 
                     data-bs-target="#detalle-producto"
-                    data-bs-nombre="Alimento para cachorros."
-                    data-bs-precio="20.000"
-                    data-bs-descripcion="El mejor alimento nutritivo que ayuda al crecimiento  sano de tu cachorro.">
+                    data-bs-nombre="Adidas Grand Court 2.0"
+                    data-bs-precio="160.000"
+                    data-bs-descripcion="Las Adidas Grand Court 2.0 son zapatillas de estilo clásico inspiradas en el tenis, que combinan un diseño limpio y versátil con comodidad moderna. Cuentan con una parte superior de cuero sintético duradero y una plantilla Cloudfoam Comfort de doble capa, que proporciona una amortiguación suave para el uso diario.">
                     Ver detalles
                 </button>
                 <button class="btn btn-primary agregar-carrito"
-                 data-nombre="Alimento para perros cachorros" 
-                 data-precio="20.000">Agregar al carrito
+                    data-nombre="Adidas Grand Court 2.0" 
+                    data-precio="160.000">Agregar al carrito
                 </button>
             </div>
         </div>
     </div>
-
-    <div class="col-md-4">
+    <div class="col-md-4 mb-4">
         <div class="card">
             <div class="card-body">
-                <img src="imagenes/productos/comida humeda para gatos.jpg" class="card-img-top" alt="Producto 4">
-                <h5 class="card-title">Comida Humeda Gatos</h5>
-                <p class="card-text">Nutritiva y ayuda al crecimiento sano de tu gatuno</p>
-                <p class="card-text">$16.000</p>
+                <img src="dd.jpg" class="card-img-top" alt="Producto 4">
+                <h5 class="card-title">Adidas Grand Court </h5>
+                <p class="card-text">Las Adidas Grand Court son zapatillas de estilo clásico inspiradas en el tenis, que combinan un diseño limpio y versátil con comodidad moderna. Cuentan con una parte superior de cuero sintético duradero y una plantilla Cloudfoam Comfort de doble capa, que proporciona una amortiguación suave para el uso diario.</p>
+                <p class="card-text">$160.000</p>
                 <button class="btn btn-info" 
                 data-bs-toggle="modal" 
                 data-bs-target="#detalle-producto"
-                data-bs-nombre="Comida humeda para gatos."
-                data-bs-precio="16.000"
-                data-bs-descripcion="Nutritiva y ayuda al crecimiento sano de tu gatuno.">
+                data-bs-nombre="Adidas Grand Court"
+                data-bs-precio="160.000"
+                data-bs-descripcion="Las Adidas Grand Court son zapatillas de estilo clásico inspiradas en el tenis, que combinan un diseño limpio y versátil con comodidad moderna. Cuentan con una parte superior de cuero sintético duradero y una plantilla Cloudfoam Comfort de doble capa, que proporciona una amortiguación suave para el uso diario.">
                 Ver detalles
                 </button>
                 <button class="btn btn-primary agregar-carrito" 
-                data-nombre="Comida Humeda Para Gatos"
-                 data-precio="16.000">Agregar al carrito
+                data-nombre="Adidas Grand Court"
+                data-precio="160.000">Agregar al carrito
+                </button>
+            </div>
+        </div>
+    </div>
+<div class="col-md-4 mb-4">
+        <div class="card">
+            <div class="card-body">
+                <img src="20.jpg" class="card-img-top" alt="Producto 3">
+                <h5 class="card-title">Adidas Grand Court </h5>
+                <p class="card-text">Las Adidas Grand Court son zapatillas de estilo clásico inspiradas en el tenis, que combinan un diseño limpio y versátil con comodidad moderna. Cuentan con una parte superior de cuero sintético duradero y una plantilla Cloudfoam Comfort de doble capa, que proporciona una amortiguación suave para el uso diario.</p>
+                <p class="card-text">$160.000</p>
+                <button class="btn btn-info" 
+                    data-bs-toggle="modal" 
+                    data-bs-target="#detalle-producto"
+                    data-bs-nombre="Adidas Grand Court"
+                    data-bs-precio="160.000"
+                    data-bs-descripcion="Las Adidas Grand Court son zapatillas de estilo clásico inspiradas en el tenis, que combinan un diseño limpio y versátil con comodidad moderna. Cuentan con una parte superior de cuero sintético duradero y una plantilla Cloudfoam Comfort de doble capa, que proporciona una amortiguación suave para el uso diario.">
+                    Ver detalles
+                </button>
+                <button class="btn btn-primary agregar-carrito"
+                data-nombre="Adidas Grand Court" 
+                data-precio="160.000">Agregar al carrito
                 </button>
             </div>
         </div>
     </div>
 
+<div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="c1.jpg" class="card-img-top" alt="Producto 2">
+                <div class="card-body">
+                    <h5 class="card-title">Conjunto NIke</h5>
+                    <p class="card-text">Los conjuntos de buena calidad destacan por su confección con materiales duraderos, costuras resistentes y acabados bien cuidados. Ofrecen comodidad, estilo y versatilidad, ideales tanto para el uso diario como para ocasiones casuales, manteniéndose en buen estado con el paso del tiempo.
+</p>
+                    <p class="card-text">170.000</p>
+                    <button class="btn btn-info" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#detalle-producto"
+                        data-bs-nombre="Conjunto Nike "
+                        data-bs-precio="170.000"
+                        data-bs-descripcion="Los conjuntos de buena calidad destacan por su confección con materiales duraderos, costuras resistentes y acabados bien cuidados. Ofrecen comodidad, estilo y versatilidad, ideales tanto para el uso diario como para ocasiones casuales, manteniéndose en buen estado con el paso del tiempo.
+">
+                        Ver detalles
+                    </button>
+                    <button class="btn btn-primary agregar-carrito" 
+                    data-nombre="Conjunto Nike" 
+                    data-precio="170.000">Agregar al carrito
+                </button>
+                <br>
+                </div> 
+            </div>
+        </div>
 
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="c2.jpg" class="card-img-top" alt="Producto 2">
+                <div class="card-body">
+                    <h5 class="card-title">Conjunto NIke</h5>
+                    <p class="card-text">Los conjuntos de buena calidad destacan por su confección con materiales duraderos, costuras resistentes y acabados bien cuidados. Ofrecen comodidad, estilo y versatilidad, ideales tanto para el uso diario como para ocasiones casuales, manteniéndose en buen estado con el paso del tiempo.
+</p>
+                    <p class="card-text">170.000</p>
+                    <button class="btn btn-info" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#detalle-producto"
+                        data-bs-nombre="Conjunto Nike "
+                        data-bs-precio="170.000"
+                        data-bs-descripcion="Los conjuntos de buena calidad destacan por su confección con materiales duraderos, costuras resistentes y acabados bien cuidados. Ofrecen comodidad, estilo y versatilidad, ideales tanto para el uso diario como para ocasiones casuales, manteniéndose en buen estado con el paso del tiempo.
+">
+                        Ver detalles
+                    </button>
+                    <button class="btn btn-primary agregar-carrito" 
+                    data-nombre="Conjunto Nike" 
+                    data-precio="170.000">Agregar al carrito
+                </button>
+                <br>
+                </div> 
+            </div>
+        </div>
+<div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="c3.jpg" class="card-img-top" alt="Producto 2">
+                <div class="card-body">
+                    <h5 class="card-title">Conjunto NIke</h5>
+                    <p class="card-text">Los conjuntos de buena calidad destacan por su confección con materiales duraderos, costuras resistentes y acabados bien cuidados. Ofrecen comodidad, estilo y versatilidad, ideales tanto para el uso diario como para ocasiones casuales, manteniéndose en buen estado con el paso del tiempo.
+</p>
+                    <p class="card-text">170.000</p>
+                    <button class="btn btn-info" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#detalle-producto"
+                        data-bs-nombre="Conjunto Nike "
+                        data-bs-precio="170.000"
+                        data-bs-descripcion="Los conjuntos de buena calidad destacan por su confección con materiales duraderos, costuras resistentes y acabados bien cuidados. Ofrecen comodidad, estilo y versatilidad, ideales tanto para el uso diario como para ocasiones casuales, manteniéndose en buen estado con el paso del tiempo.
+">
+                        Ver detalles
+                    </button>
+                    <button class="btn btn-primary agregar-carrito" 
+                    data-nombre="Conjunto Nike" 
+                    data-precio="170.000">Agregar al carrito
+                </button>
+                <br>
+                </div> 
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="c4.jpg" class="card-img-top" alt="Producto 2">
+                <div class="card-body">
+                    <h5 class="card-title">Conjunto NIke</h5>
+                    <p class="card-text">Los conjuntos de buena calidad destacan por su confección con materiales duraderos, costuras resistentes y acabados bien cuidados. Ofrecen comodidad, estilo y versatilidad, ideales tanto para el uso diario como para ocasiones casuales, manteniéndose en buen estado con el paso del tiempo.
+</p>
+                    <p class="card-text">170.000</p>
+                    <button class="btn btn-info" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#detalle-producto"
+                        data-bs-nombre="Conjunto Nike "
+                        data-bs-precio="170.000"
+                        data-bs-descripcion="Los conjuntos de buena calidad destacan por su confección con materiales duraderos, costuras resistentes y acabados bien cuidados. Ofrecen comodidad, estilo y versatilidad, ideales tanto para el uso diario como para ocasiones casuales, manteniéndose en buen estado con el paso del tiempo.
+">
+                        Ver detalles
+                    </button>
+                    <button class="btn btn-primary agregar-carrito" 
+                    data-nombre="Conjunto Nike" 
+                    data-precio="170.000">Agregar al carrito
+                </button>
+                <br>
+                </div> 
+            </div>
+        </div>
+         <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="c5.jpg" class="card-img-top" alt="Producto 2">
+                <div class="card-body">
+                    <h5 class="card-title">Conjunto NIke</h5>
+                    <p class="card-text">Los conjuntos de buena calidad destacan por su confección con materiales duraderos, costuras resistentes y acabados bien cuidados. Ofrecen comodidad, estilo y versatilidad, ideales tanto para el uso diario como para ocasiones casuales, manteniéndose en buen estado con el paso del tiempo.
+</p>
+                    <p class="card-text">170.000</p>
+                    <button class="btn btn-info" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#detalle-producto"
+                        data-bs-nombre="Conjunto Nike "
+                        data-bs-precio="170.000"
+                        data-bs-descripcion="Los conjuntos de buena calidad destacan por su confección con materiales duraderos, costuras resistentes y acabados bien cuidados. Ofrecen comodidad, estilo y versatilidad, ideales tanto para el uso diario como para ocasiones casuales, manteniéndose en buen estado con el paso del tiempo.
+">
+                        Ver detalles
+                    </button>
+                    <button class="btn btn-primary agregar-carrito" 
+                    data-nombre="Conjunto Nike" 
+                    data-precio="170.000">Agregar al carrito
+                </button>
+                <br>
+                </div> 
+            </div>
+        </div>
+         <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="c6.jpg" class="card-img-top" alt="Producto 2">
+                <div class="card-body">
+                    <h5 class="card-title">Conjunto NIke</h5>
+                    <p class="card-text">Los conjuntos de buena calidad destacan por su confección con materiales duraderos, costuras resistentes y acabados bien cuidados. Ofrecen comodidad, estilo y versatilidad, ideales tanto para el uso diario como para ocasiones casuales, manteniéndose en buen estado con el paso del tiempo.
+</p>
+                    <p class="card-text">170.000</p>
+                    <button class="btn btn-info" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#detalle-producto"
+                        data-bs-nombre="Conjunto Nike "
+                        data-bs-precio="170.000"
+                        data-bs-descripcion="Los conjuntos de buena calidad destacan por su confección con materiales duraderos, costuras resistentes y acabados bien cuidados. Ofrecen comodidad, estilo y versatilidad, ideales tanto para el uso diario como para ocasiones casuales, manteniéndose en buen estado con el paso del tiempo.
+">
+                        Ver detalles
+                    </button>
+                    <button class="btn btn-primary agregar-carrito" 
+                    data-nombre="Conjunto Nike" 
+                    data-precio="170.000">Agregar al carrito
+                </button>
+                <br>
+                </div> 
+            </div>
+        </div>
+         <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="c7.jpg" class="card-img-top" alt="Producto 2">
+                <div class="card-body">
+                    <h5 class="card-title">Conjunto Face </h5>
+                    <p class="card-text">Los conjuntos de buena calidad destacan por su confección con materiales duraderos, costuras resistentes y acabados bien cuidados. Ofrecen comodidad, estilo y versatilidad, ideales tanto para el uso diario como para ocasiones casuales, manteniéndose en buen estado con el paso del tiempo.
+</p>
+                    <p class="card-text">170.000</p>
+                    <button class="btn btn-info" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#detalle-producto"
+                        data-bs-nombre="Conjunto Face "
+                        data-bs-precio="170.000"
+                        data-bs-descripcion="Los conjuntos de buena calidad destacan por su confección con materiales duraderos, costuras resistentes y acabados bien cuidados. Ofrecen comodidad, estilo y versatilidad, ideales tanto para el uso diario como para ocasiones casuales, manteniéndose en buen estado con el paso del tiempo.
+">s
+                        Ver detalles
+                    </button>
+                    <button class="btn btn-primary agregar-carrito" 
+                    data-nombre="Conjunto Face" 
+                    data-precio="170.000">Agregar al carrito
+                </button>
+                <br>
+                </div> 
+            </div>
+        </div>
+         <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="c8.jpg" class="card-img-top" alt="Producto 2">
+                <div class="card-body">
+                    <h5 class="card-title">Conjunto NIke</h5>
+                    <p class="card-text">Los conjuntos de buena calidad destacan por su confección con materiales duraderos, costuras resistentes y acabados bien cuidados. Ofrecen comodidad, estilo y versatilidad, ideales tanto para el uso diario como para ocasiones casuales, manteniéndose en buen estado con el paso del tiempo.
+</p>
+                    <p class="card-text">170.000</p>
+                    <button class="btn btn-info" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#detalle-producto"
+                        data-bs-nombre="Conjunto Nike "
+                        data-bs-precio="170.000"
+                        data-bs-descripcion="Los conjuntos de buena calidad destacan por su confección con materiales duraderos, costuras resistentes y acabados bien cuidados. Ofrecen comodidad, estilo y versatilidad, ideales tanto para el uso diario como para ocasiones casuales, manteniéndose en buen estado con el paso del tiempo.
+">
+                        Ver detalles
+                    </button>
+                    <button class="btn btn-primary agregar-carrito" 
+                    data-nombre="Conjunto Nike" 
+                    data-precio="170.000">Agregar al carrito
+                </button>
+                <br>
+                </div> 
+            </div>
+        </div>
+         <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="c9.jpg" class="card-img-top" alt="Producto 2">
+                <div class="card-body">
+                    <h5 class="card-title">Conjunto NIke</h5>
+                    <p class="card-text">Los conjuntos de buena calidad destacan por su confección con materiales duraderos, costuras resistentes y acabados bien cuidados. Ofrecen comodidad, estilo y versatilidad, ideales tanto para el uso diario como para ocasiones casuales, manteniéndose en buen estado con el paso del tiempo.
+</p>
+                    <p class="card-text">170.000</p>
+                    <button class="btn btn-info" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#detalle-producto"
+                        data-bs-nombre="Conjunto Nike "
+                        data-bs-precio="170.000"
+                        data-bs-descripcion="Los conjuntos de buena calidad destacan por su confección con materiales duraderos, costuras resistentes y acabados bien cuidados. Ofrecen comodidad, estilo y versatilidad, ideales tanto para el uso diario como para ocasiones casuales, manteniéndose en buen estado con el paso del tiempo.
+">
+                        Ver detalles
+                    </button>
+                    <button class="btn btn-primary agregar-carrito" 
+                    data-nombre="Conjunto Nike" 
+                    data-precio="170.000">Agregar al carrito
+                </button>
+                <br>
+                </div> 
+            </div>
+        </div>
+         <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="c10.jpg" class="card-img-top" alt="Producto 2">
+                <div class="card-body">
+                    <h5 class="card-title">Conjunto NIke</h5>
+                    <p class="card-text">Los conjuntos de buena calidad destacan por su confección con materiales duraderos, costuras resistentes y acabados bien cuidados. Ofrecen comodidad, estilo y versatilidad, ideales tanto para el uso diario como para ocasiones casuales, manteniéndose en buen estado con el paso del tiempo.
+</p>
+                    <p class="card-text">170.000</p>
+                    <button class="btn btn-info" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#detalle-producto"
+                        data-bs-nombre="Conjunto Nike "
+                        data-bs-precio="170.000"
+                        data-bs-descripcion="Los conjuntos de buena calidad destacan por su confección con materiales duraderos, costuras resistentes y acabados bien cuidados. Ofrecen comodidad, estilo y versatilidad, ideales tanto para el uso diario como para ocasiones casuales, manteniéndose en buen estado con el paso del tiempo.
+">
+                        Ver detalles
+                    </button>
+                    <button class="btn btn-primary agregar-carrito" 
+                    data-nombre="Conjunto Nike" 
+                    data-precio="170.000">Agregar al carrito
+                </button>
+                <br>
+                </div> 
+            </div>
+        </div>
+         <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="c11.jpg" class="card-img-top" alt="Producto 2">
+                <div class="card-body">
+                    <h5 class="card-title">Conjunto NIke</h5>
+                    <p class="card-text">Los conjuntos de buena calidad destacan por su confección con materiales duraderos, costuras resistentes y acabados bien cuidados. Ofrecen comodidad, estilo y versatilidad, ideales tanto para el uso diario como para ocasiones casuales, manteniéndose en buen estado con el paso del tiempo.
+</p>
+                    <p class="card-text">170.000</p>
+                    <button class="btn btn-info" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#detalle-producto"
+                        data-bs-nombre="Conjunto Nike "
+                        data-bs-precio="170.000"
+                        data-bs-descripcion="Los conjuntos de buena calidad destacan por su confección con materiales duraderos, costuras resistentes y acabados bien cuidados. Ofrecen comodidad, estilo y versatilidad, ideales tanto para el uso diario como para ocasiones casuales, manteniéndose en buen estado con el paso del tiempo.
+">
+                        Ver detalles
+                    </button>
+                    <button class="btn btn-primary agregar-carrito" 
+                    data-nombre="Conjunto Nike" 
+                    data-precio="170.000">Agregar al carrito
+                </button>
+                <br>
+                </div> 
+            </div>
+        </div>
+         <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="c12.jpg" class="card-img-top" alt="Producto 2">
+                <div class="card-body">
+                    <h5 class="card-title">Conjunto Balenciaga</h5>
+                    <p class="card-text">Los conjuntos de buena calidad destacan por su confección con materiales duraderos, costuras resistentes y acabados bien cuidados. Ofrecen comodidad, estilo y versatilidad, ideales tanto para el uso diario como para ocasiones casuales, manteniéndose en buen estado con el paso del tiempo.
+</p>
+                    <p class="card-text">170.000</p>
+                    <button class="btn btn-info" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#detalle-producto"
+                        data-bs-nombre="Conjunto Balenciaga "
+                        data-bs-precio="170.000"
+                        data-bs-descripcion="Los conjuntos de buena calidad destacan por su confección con materiales duraderos, costuras resistentes y acabados bien cuidados. Ofrecen comodidad, estilo y versatilidad, ideales tanto para el uso diario como para ocasiones casuales, manteniéndose en buen estado con el paso del tiempo.
+">
+                        Ver detalles
+                    </button>
+                    <button class="btn btn-primary agregar-carrito" 
+                    data-nombre="Conjunto Balenciaga" 
+                    data-precio="170.000">Agregar al carrito
+                </button>
+                <br>
+                </div> 
+            </div>
+        </div>
+         <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="c13.jpg" class="card-img-top" alt="Producto 2">
+                <div class="card-body">
+                    <h5 class="card-title">Conjunto NIke</h5>
+                    <p class="card-text">Los conjuntos de buena calidad destacan por su confección con materiales duraderos, costuras resistentes y acabados bien cuidados. Ofrecen comodidad, estilo y versatilidad, ideales tanto para el uso diario como para ocasiones casuales, manteniéndose en buen estado con el paso del tiempo.
+</p>
+                    <p class="card-text">170.000</p>
+                    <button class="btn btn-info" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#detalle-producto"
+                        data-bs-nombre="Conjunto Nike "
+                        data-bs-precio="170.000"
+                        data-bs-descripcion="Los conjuntos de buena calidad destacan por su confección con materiales duraderos, costuras resistentes y acabados bien cuidados. Ofrecen comodidad, estilo y versatilidad, ideales tanto para el uso diario como para ocasiones casuales, manteniéndose en buen estado con el paso del tiempo.
+">
+                        Ver detalles
+                    </button>
+                    <button class="btn btn-primary agregar-carrito" 
+                    data-nombre="Conjunto Nike" 
+                    data-precio="170.000">Agregar al carrito
+                </button>
+                <br>
+                </div> 
+            </div>
+        </div>
+         <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="c14.jpg" class="card-img-top" alt="Producto 2">
+                <div class="card-body">
+                    <h5 class="card-title">Conjunto NIke</h5>
+                    <p class="card-text">Los conjuntos de buena calidad destacan por su confección con materiales duraderos, costuras resistentes y acabados bien cuidados. Ofrecen comodidad, estilo y versatilidad, ideales tanto para el uso diario como para ocasiones casuales, manteniéndose en buen estado con el paso del tiempo.
+</p>
+                    <p class="card-text">170.000</p>
+                    <button class="btn btn-info" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#detalle-producto"
+                        data-bs-nombre="Conjunto Nike "
+                        data-bs-precio="170.000"
+                        data-bs-descripcion="Los conjuntos de buena calidad destacan por su confección con materiales duraderos, costuras resistentes y acabados bien cuidados. Ofrecen comodidad, estilo y versatilidad, ideales tanto para el uso diario como para ocasiones casuales, manteniéndose en buen estado con el paso del tiempo.
+">
+                        Ver detalles
+                    </button>
+                    <button class="btn btn-primary agregar-carrito" 
+                    data-nombre="Conjunto Nike" 
+                    data-precio="170.000">Agregar al carrito
+                </button>
+                <br>
+                </div> 
+            </div>
+        </div>
+         <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="c15.jpg" class="card-img-top" alt="Producto 2">
+                <div class="card-body">
+                    <h5 class="card-title">Conjunto NIke</h5>
+                    <p class="card-text">Los conjuntos de buena calidad destacan por su confección con materiales duraderos, costuras resistentes y acabados bien cuidados. Ofrecen comodidad, estilo y versatilidad, ideales tanto para el uso diario como para ocasiones casuales, manteniéndose en buen estado con el paso del tiempo.
+</p>
+                    <p class="card-text">170.000</p>
+                    <button class="btn btn-info" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#detalle-producto"
+                        data-bs-nombre="Conjunto Nike "
+                        data-bs-precio="170.000"
+                        data-bs-descripcion="Los conjuntos de buena calidad destacan por su confección con materiales duraderos, costuras resistentes y acabados bien cuidados. Ofrecen comodidad, estilo y versatilidad, ideales tanto para el uso diario como para ocasiones casuales, manteniéndose en buen estado con el paso del tiempo.
+">
+                        Ver detalles
+                    </button>
+                    <button class="btn btn-primary agregar-carrito" 
+                    data-nombre="Conjunto Nike" 
+                    data-precio="170.000">Agregar al carrito
+                </button>
+                <br>
+                </div> 
+            </div>
+        </div>
+         <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="c16.jpg" class="card-img-top" alt="Producto 2">
+                <div class="card-body">
+                    <h5 class="card-title">Conjunto NIke</h5>
+                    <p class="card-text">Los conjuntos de buena calidad destacan por su confección con materiales duraderos, costuras resistentes y acabados bien cuidados. Ofrecen comodidad, estilo y versatilidad, ideales tanto para el uso diario como para ocasiones casuales, manteniéndose en buen estado con el paso del tiempo.
+</p>
+                    <p class="card-text">170.000</p>
+                    <button class="btn btn-info" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#detalle-producto"
+                        data-bs-nombre="Conjunto Nike "
+                        data-bs-precio="170.000"
+                        data-bs-descripcion="Los conjuntos de buena calidad destacan por su confección con materiales duraderos, costuras resistentes y acabados bien cuidados. Ofrecen comodidad, estilo y versatilidad, ideales tanto para el uso diario como para ocasiones casuales, manteniéndose en buen estado con el paso del tiempo.
+">
+                        Ver detalles
+                    </button>
+                    <button class="btn btn-primary agregar-carrito" 
+                    data-nombre="Conjunto Nike" 
+                    data-precio="170.000">Agregar al carrito
+                </button>
+                <br>
+                </div> 
+            </div>
+        </div>
+         <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="c17.jpg" class="card-img-top" alt="Producto 2">
+                <div class="card-body">
+                    <h5 class="card-title">Conjunto NIke</h5>
+                    <p class="card-text">Los conjuntos de buena calidad destacan por su confección con materiales duraderos, costuras resistentes y acabados bien cuidados. Ofrecen comodidad, estilo y versatilidad, ideales tanto para el uso diario como para ocasiones casuales, manteniéndose en buen estado con el paso del tiempo.
+</p>
+                    <p class="card-text">170.000</p>
+                    <button class="btn btn-info" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#detalle-producto"
+                        data-bs-nombre="Conjunto Nike "
+                        data-bs-precio="170.000"
+                        data-bs-descripcion="Los conjuntos de buena calidad destacan por su confección con materiales duraderos, costuras resistentes y acabados bien cuidados. Ofrecen comodidad, estilo y versatilidad, ideales tanto para el uso diario como para ocasiones casuales, manteniéndose en buen estado con el paso del tiempo.
+">
+                        Ver detalles
+                    </button>
+                    <button class="btn btn-primary agregar-carrito" 
+                    data-nombre="Conjunto Nike" 
+                    data-precio="170.000">Agregar al carrito
+                </button>
+                <br>
+                </div> 
+            </div>
+        </div>
+         <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="c18.jpg" class="card-img-top" alt="Producto 2">
+                <div class="card-body">
+                    <h5 class="card-title">Conjunto NIke</h5>
+                    <p class="card-text">Los conjuntos de buena calidad destacan por su confección con materiales duraderos, costuras resistentes y acabados bien cuidados. Ofrecen comodidad, estilo y versatilidad, ideales tanto para el uso diario como para ocasiones casuales, manteniéndose en buen estado con el paso del tiempo.
+</p>
+                    <p class="card-text">170.000</p>
+                    <button class="btn btn-info" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#detalle-producto"
+                        data-bs-nombre="Conjunto Nike "
+                        data-bs-precio="170.000"
+                        data-bs-descripcion="Los conjuntos de buena calidad destacan por su confección con materiales duraderos, costuras resistentes y acabados bien cuidados. Ofrecen comodidad, estilo y versatilidad, ideales tanto para el uso diario como para ocasiones casuales, manteniéndose en buen estado con el paso del tiempo.
+">
+                        Ver detalles
+                    </button>
+                    <button class="btn btn-primary agregar-carrito" 
+                    data-nombre="Conjunto Nike" 
+                    data-precio="170.000">Agregar al carrito
+                </button>
+                <br>
+                </div> 
+            </div>
+        </div>
 </div>
+
 <!-- Modal de Detalles del Producto -->
 <div class="modal fade" id="detalle-producto" tabindex="-1" aria-labelledby="detalleProductoLabel" aria-hidden="true">
     <div class="modal-dialog">
-      <div class="modal-content">
+    <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="detalleProductoLabel">Detalles del Producto</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        <h5 class="modal-title" id="detalleProductoLabel">Detalles del Producto</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
         </div>
         <div class="modal-body">
-          <h5 id="modal-nombre"></h5>
-          <p id="modal-precio"></p>
-          <p id="modal-descripcion"></p>
+        <h5 id="modal-nombre"></h5>
+        <p id="modal-precio"></p>
+        <p id="modal-descripcion"></p>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
         </div>
-      </div>
     </div>
-  </div>
-  
-
-  <script>
+    </div>
+</div>      
+<script>
     document.addEventListener('DOMContentLoaded', function () {
-      var modal = document.getElementById('detalle-producto');
+    var modal = document.getElementById('detalle-producto');
     
-      modal.addEventListener('show.bs.modal', function (event) {
+    modal.addEventListener('show.bs.modal', function (event) {
         var button = event.relatedTarget; // Botón que abrió el modal
         var nombre = button.getAttribute('data-bs-nombre');
         var precio = button.getAttribute('data-bs-precio');
@@ -350,7 +812,7 @@
         modal.querySelector('#modal-nombre').textContent = nombre;
         modal.querySelector('#modal-precio').textContent = 'Precio: $' + precio;
         modal.querySelector('#modal-descripcion').textContent = descripcion;
-      });
+    });
     });
     </script>
 
