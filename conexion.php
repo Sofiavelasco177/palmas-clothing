@@ -1,12 +1,8 @@
 <?php
-$host = "localhost";
-$usuario = "root";
-$clave = "";
-$bd = "palmas";
+$conexion = new mysqli("localhost", "root", "", "palmas");
 
-$conn = new mysqli($host, $usuario, $clave, $bd);
-
-if ($conn->connect_error) {
-    die("Conexión fallida: " . $conn->connect_error);
+if ($conexion->connect_error) {
+    die("Error de conexión: " . $conexion->connect_error);
 }
 ?>
+
