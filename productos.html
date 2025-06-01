@@ -10,27 +10,28 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-custom flex-column align-items-center">
-    <div class="w-100 text-center py-2 navbar-logo">
-        <img src="LOGO.jpg" height="100" alt="Imagen 1">
-    </div>
-    <br>
-    <div class="w-100">
-        <ul class="navbar-nav flex-row justify-content-center w-100 gap-5">
-            <li class="nav-item flex-fill text-center"><a class="nav-link" href="inicio.html">Inicio</a></li>
-            <li class="nav-item flex-fill text-center"><a class="nav-link" href="productos.html">Productos</a></li>
-            <li class="nav-item flex-fill text-center"><a class="nav-link" href="contacto.html">Contacto</a></li>
-            <li class="nav-item flex-fill text-center"><a class="nav-link" href="nosotros.html">Sobre Nosotros</a></li>
-            <li class="nav-item flex-fill text-center"><a class="nav-link" href="carrito.html">Carrito</a></li>
-            <li class="nav-item flex-fill text-center"><a class="nav-link active" href="Login.html">Login</a></li>
-            <li class="nav-item flex-fill text-center">
-                <a class="whatsapp" href="https://wa.me/573232497247" target="_blank" title="Chatea con nosotros">
-                    <img src="wa.jpg" alt="WhatsApp" width="40" height="40">
-                </a>
-            </li>
-        </ul>
-    </div>
-</nav>
+    <nav class="navbar navbar-expand-lg navbar-light  navbar-custom fixed-top">
+        <img src="LOGO.jpg" height= "100"  alt="Imagen 1">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="inicio.php">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="nosotros.html">Sobre Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="carrito.html">Carrito</a></li>
+                    <a class="whatsapp" href="https://wa.me/573232497247" target="_blank" title="Chatea con nosotros" img src="wa.jpg" alt="WhatsApp">
+                        <img src="wa.jpg" alt="WhatsApp" width="40" height="40">
+
+</a>
+                </ul>
+            </div>
+        </div>
+       
+    </nav>
 <br>
 <div class="container py-5">
     <h2 class="text-center mb-4">Nuestro Catalogo.</h2>
@@ -170,147 +171,11 @@
             </div>
         </div>
 
-        <div class="col-md-4">
-            <div class="card">
-                <img src="imagenes/productos/kit.jpg" class="card-img-top" alt="Producto 2">
-                <div class="card-body">
-                    <h5 class="card-title">Kit de aseo</h5>
-                    <p class="card-text">Lo mejor en productos para el aseo de tu mejor amigo.</p>
-                    <p class="card-text">80.000</p>
-                    <button class="btn btn-info" 
-                    data-bs-toggle="modal" 
-                    data-bs-target="#detalle-producto"
-                    data-bs-nombre="Kit de aseo."
-                    data-bs-precio="80.000"
-                    data-bs-descripcion="Lo mejor en productos para el aseo de tu mejor amigo.">
-                    Ver detalles
-                    <button class="btn btn-primary agregar-carrito"
-                     data-nombre="Kit de aseo" 
-                     data-precio="80.000">Agregar al carrito
-                    </button>
-                </div>
-            </div>
-        </div>
+  
 
 
-        <div class="col-md-4">
-            <div class="card">
-                <img src="imagenes/productos/collar.jpg" class="card-img-top" alt="Producto 2">
-                <div class="card-body">
-                    <h5 class="card-title">Collar para gatos</h5>
-                    <p class="card-text">Lindo y comodo para tu gato.</p>
-                    <p class="card-text">28.000</p>
-                    <button class="btn btn-info" 
-                    data-bs-toggle="modal" 
-                    data-bs-target="#detalle-producto"
-                    data-bs-nombre="Collar para gatos."
-                    data-bs-precio="28.000"
-                    data-bs-descripcion="Lindo y comodo para tu gato.">
-                    Ver detalles
-                    </button>
-                    <button class="btn btn-primary agregar-carrito" 
-                    data-nombre="Collar para gatos" 
-                    data-precio="28.000">Agregar al carrito
-                </button>
-                </div>
-            </div>
-        </div>
-       
-        <div class="col-md-4">
-            <div class="card">
-                <img src="imagenes/productos/pecera.jpg" class="card-img-top" alt="Producto 2">
-                <div class="card-body">
-                    <h5 class="card-title">Pecera pequeña</h5>
-                    <p class="card-text">Linda y comoda para tus peces.</p>
-                    <p class="card-text">38.000</p>
-                    <button class="btn btn-info" 
-                    data-bs-toggle="modal" 
-                    data-bs-target="#detalle-producto"
-                    data-bs-nombre="Pecera pequeña."
-                    data-bs-precio="38.000"
-                    data-bs-descripcion="linda y comoda para tus peces.">
-                    Ver detalles
-                    </button>
-                    <button class="btn btn-primary agregar-carrito" 
-                    data-nombre="Pecera pequeña" 
-                    data-precio="38.000">Agregar al carrito
-                </button>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card">
-                <img src="imagenes/productos/comedero de aves.jpg" class="card-img-top" alt="Producto 2">
-                <div class="card-body">
-                    <h5 class="card-title">Comedero para aves</h5>
-                    <p class="card-text">Comoda para alcenar la comida de tus aves.</p>
-                    <p class="card-text">32.000</p>
-                    <button class="btn btn-info" 
-                    data-bs-toggle="modal" 
-                    data-bs-target="#detalle-producto"
-                    data-bs-nombre="Comedero para aves."
-                    data-bs-precio="32.000"
-                    data-bs-descripcion="Comoda para almacenar la comida de tus aves.">
-                    Ver detalles
-                    </button>
-                    <button class="btn btn-primary agregar-carrito" 
-                    data-nombre="Comedero Para Aves" 
-                    data-precio="32.000">Agregar al carrito
-                </button>
-                </div>
-            </div>
-        </div>
-
-
-    </div>
-
-    <h2 class="text-center mb-4">Nuevos Productos </h2>
-
-    <div class="col-md-4">
-        <div class="card">
-            <div class="card-body">
-                <img src="imagenes/productos/nuevo producto can.jpg" class="card-img-top" alt="Producto 3">
-                <h5 class="card-title">Alimento para perros cachorros </h5>
-                <p class="card-text">El mejor alimento nutritivo que ayuda al crecimiento  sano de tu cachorro.</p>
-                <p class="card-text">$20.000</p>
-                <button class="btn btn-info" 
-                    data-bs-toggle="modal" 
-                    data-bs-target="#detalle-producto"
-                    data-bs-nombre="Alimento para cachorros."
-                    data-bs-precio="20.000"
-                    data-bs-descripcion="El mejor alimento nutritivo que ayuda al crecimiento  sano de tu cachorro.">
-                    Ver detalles
-                </button>
-                <button class="btn btn-primary agregar-carrito"
-                 data-nombre="Alimento para perros cachorros" 
-                 data-precio="20.000">Agregar al carrito
-                </button>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-md-4">
-        <div class="card">
-            <div class="card-body">
-                <img src="imagenes/productos/comida humeda para gatos.jpg" class="card-img-top" alt="Producto 4">
-                <h5 class="card-title">Comida Humeda Gatos</h5>
-                <p class="card-text">Nutritiva y ayuda al crecimiento sano de tu gatuno</p>
-                <p class="card-text">$16.000</p>
-                <button class="btn btn-info" 
-                data-bs-toggle="modal" 
-                data-bs-target="#detalle-producto"
-                data-bs-nombre="Comida humeda para gatos."
-                data-bs-precio="16.000"
-                data-bs-descripcion="Nutritiva y ayuda al crecimiento sano de tu gatuno.">
-                Ver detalles
-                </button>
-                <button class="btn btn-primary agregar-carrito" 
-                data-nombre="Comida Humeda Para Gatos"
-                 data-precio="16.000">Agregar al carrito
-                </button>
-            </div>
-        </div>
-    </div>
+   
+                  
 
 
 </div>

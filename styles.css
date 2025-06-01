@@ -129,8 +129,9 @@ button:hover {
 }
 /*corrusel*/
 .carousel-inner img {
-    height: 1000px; /* Ajustar altura */
-    object-fit: cover;
+    background-position: center;
+    height: 400px; /* Ajustar altura */
+ 
 }
 
 .carousel-control-prev,
@@ -388,6 +389,15 @@ button[type="submit"]:active {
 }
 .form-login{
     background-color: transparent;
+}
+.btn-login {
+    background-color: #97A783;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
 
