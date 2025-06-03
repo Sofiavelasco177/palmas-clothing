@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f8ff; /* AliceBlue as a fallback */
+    background-image: url('login1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    border: 1px solid rgba(0,0,0,0.05);
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.login-container h1 {
+    color: #005A31; /* Darker Palm Green */
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.input-group input[type="text"],
+.input-group input[type="password"] {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.input-group input[type="text"]:focus,
+.input-group input[type="password"]:focus {
+    border-color: #2E8B57; /* SeaGreen */
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(46, 139, 87, 0.2);
+}
+
+button[type="submit"] {
+    background-color: #2E8B57; /* SeaGreen */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button[type="submit"]:hover {
+    background-color: #257347; /* Darker SeaGreen */
+}
+
+button[type="submit"]:active {
+    transform: scale(0.98);
+}
+
+.button-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    filter: brightness(0) invert(1); /* Makes icon white */
+}
+
+
+#messageArea {
+    margin-top: 20px;
+    font-size: 14px;
+    min-height: 20px;
+}
+
+.message.success {
+    color: #2E8B57; /* SeaGreen */
+    font-weight: bold;
+}
+
+.message.error {
+    color: #D9534F; /* Bootstrap Danger Red */
+    font-weight: bold;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+    .login-container {
+        padding: 20px;
+    }
+    .login-container h1 {
+        font-size: 20px;
+    }
+    .input-group input[type="text"],
+    .input-group input[type="password"],
+    button[type="submit"] {
+        font-size: 15px;
+    }
+}
+
