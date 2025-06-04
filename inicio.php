@@ -1,3 +1,12 @@
+<?php
+session_start();
+if (!isset($_SESSION['usuario_id'])) {
+    header("Location: login.php");
+    exit();
+}
+echo "Bienvenido, " . $_SESSION['username'] . "!";
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -18,12 +27,13 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="inicio.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="inicio.php">Inicio</a></li>
                     <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
                     <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
                     <li class="nav-item"><a class="nav-link" href="nosotros.html">Sobre Nosotros</a></li>
                     <li class="nav-item"><a class="nav-link" href="carrito.html">Carrito</a></li>
-                    <li class="nav-item"><a class="nav-link" href="Login.hml">Login </a></li>
+                    <li class="nav-item"><a class="nav-link active" href="login.php">Login </a></li>
+                    <li class="nav-item"><a class="nav-link active" href="registro.php">Registro</a></li>
                     <a class="whatsapp" href="https://wa.me/573232497247" target="_blank" title="Chatea con nosotros" img src="112.jpg" alt="WhatsApp">
                         <img src="wa.jpg" alt="WhatsApp" width="40" height="40">
 
