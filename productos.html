@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>WB pets - Productos</title>
+    <title>Productos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
 
 </head>
 <body>
@@ -21,9 +23,9 @@
                     <li class="nav-item"><a class="nav-link" href="inicio.php">Inicio</a></li>
                     <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
                     <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
-                    <li class="nav-item"><a class="nav-link" href="nosotros.html">Sobre Nosotros</a></li>
-                    <li class="nav-item"><a class="nav-link" href="carrito.html">Carrito</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="login.php">Login </a></li>
+                    <li class="nav-item"><a class="nav-link" href="nosotros.html"> Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="carrito.html"><i class="bi bi-cart3"></i></a></li>
+                    <li class="nav-item"><a class="nav-link active" href="Login.html"><i class="bi bi-person"></i></a></li>
                     <a class="whatsapp" href="https://wa.me/573232497247" target="_blank" title="Chatea con nosotros" img src="wa.jpg" alt="WhatsApp">
                         <img src="wa.jpg" alt="WhatsApp" width="40" height="40">
 
@@ -35,22 +37,9 @@
 
 <br>
 <div class="container py-5">
-    <h2 class="text-center mb-4">Nuestro Catalogo</h2>
+    
     
 
-
-
-    <div class="mb-3">
-        <label for="TipoMascota">Que deseas comprar:</label>
-        <select id="opciones" name="opciones" class="form-control">
-            <option value="opcion1">Seleccione  ... </option>
-            <option value="opcion2">Mujer</option>
-            <option value="opcion3">Hombres</option>
-            <option value="opcion4">Buzos</option>
-            <option value="opcion5">Conjuntoss</option>
-        </select>
-        <br>
-    </div>
     <div class="row">
         <div class="col-md-4 mb-4">
             <div class="card">
@@ -69,7 +58,8 @@
                     </button>
                     <button class="btn btn-primary agregar-carrito" 
                     data-nombre="New Balance FreshFoam" 
-                    data-precio="170.000">Agregar al carrito
+                    data-precio="170.000"
+                    data-imagen="zz2.jpg">Agregar al carrito
                 </button>
                 <br>
                 </div> 
@@ -93,7 +83,8 @@
                     </button>
                     <button class="btn btn-primary agregar-carrito" 
                     data-nombre="Air Jordan 4 Retro" 
-                    data-precio="170.000">Agregar al carrito
+                    data-precio="170.000"
+                    data-imagen="r4.jpg">Agregar al carrito
                 </button>
                 </div>
             </div>
@@ -116,7 +107,8 @@
                     </button>
                     <button class="btn btn-primary agregar-carrito"
                     data-nombre="Adidas Gazelle" 
-                    data-precio="160.000">Agregar al carrito
+                    data-precio="160.000"
+                    data-imagen="AG.jpg">Agregar al carrito
                     </button>
                 </div>
             </div>
@@ -140,7 +132,8 @@
                     </button>
                     <button class="btn btn-primary agregar-carrito"
                     data-nombre="Nike X Travis Scott" 
-                    data-precio="160.000">Agregar al carrito
+                    data-precio="160.000"
+                    data-imagen="TX.jpg">Agregar al carrito
                     </button>
                 </div>
             </div>
@@ -164,7 +157,8 @@
                     </button>
                     <button class="btn btn-primary agregar-carrito" 
                     data-nombre="New Balance 2010." 
-                    data-precio="160.000">Agregar al carrito
+                    data-precio="160.000"
+                    data-imagen="n20.jpg">Agregar al carrito
                 </button>
                 </div>
             </div>
@@ -188,7 +182,8 @@
                     Ver detalles
                     <button class="btn btn-primary agregar-carrito"
                     data-nombre="Jordan 1 Retro High OG." 
-                    data-precio="170.000">Agregar al carrito
+                    data-precio="170.000"
+                    data-imagen="mm.jpg">Agregar al carrito
                     </button>
                 </div>
             </div>
@@ -210,7 +205,8 @@
                     </button>
                     <button class="btn btn-primary agregar-carrito" 
                     data-nombre="Alexander McQueen Oversized" 
-                    data-precio="160.000">Agregar al carrito
+                    data-precio="160.000"
+                    data-imagen="ar.jpg">Agregar al carrito
                 </button>
                 </div>
             </div>
@@ -232,7 +228,8 @@
                     </button>
                     <button class="btn btn-primary agregar-carrito" 
                     data-nombre="Nike M2K Tekno" 
-                    data-precio="170.000">Agregar al carrito
+                    data-precio="170.000"
+                    data-imagen="nk.jpg">Agregar al carrito
                 </button>
                 </div>
             </div>
@@ -254,7 +251,8 @@
                     </button>
                     <button class="btn btn-primary agregar-carrito" 
                     data-nombre="Puma Slipstream Wild." 
-                    data-precio="170.000">Agregar al carrito
+                    data-precio="170.000"
+                    data-imagen="PM.jpg">Agregar al carrito
                 </button>
                 </div>
             </div>
@@ -276,7 +274,8 @@
                 </button>
                 <button class="btn btn-primary agregar-carrito"
                     data-nombre="Adidas Grand Court 2.0" 
-                    data-precio="160.000">Agregar al carrito
+                    data-precio="160.000"
+                    data-imagen="20.jpg">Agregar al carrito
                 </button>
             </div>
         </div>
@@ -298,7 +297,8 @@
                 </button>
                 <button class="btn btn-primary agregar-carrito" 
                 data-nombre="Adidas Grand Court"
-                data-precio="160.000">Agregar al carrito
+                data-precio="160.000"
+                data-imagen="dd.jpg">Agregar al carrito
                 </button>
             </div>
         </div>
@@ -320,7 +320,8 @@
                 </button>
                 <button class="btn btn-primary agregar-carrito"
                 data-nombre="Adidas Grand Court" 
-                data-precio="160.000">Agregar al carrito
+                data-precio="160.000"
+                data-imagen="20.jpg">Agregar al carrito
                 </button>
             </div>
         </div>
@@ -345,7 +346,8 @@
                     </button>
                     <button class="btn btn-primary agregar-carrito" 
                     data-nombre="Conjunto Nike" 
-                    data-precio="170.000">Agregar al carrito
+                    data-precio="170.000"
+                    data-imagen="c1.jpg">Agregar al carrito
                 </button>
                 <br>
                 </div> 
@@ -371,7 +373,8 @@
                     </button>
                     <button class="btn btn-primary agregar-carrito" 
                     data-nombre="Conjunto Nike" 
-                    data-precio="170.000">Agregar al carrito
+                    data-precio="170.000"
+                    data-imagen="c2.jpg">Agregar al carrito
                 </button>
                 <br>
                 </div> 
@@ -396,7 +399,8 @@
                     </button>
                     <button class="btn btn-primary agregar-carrito" 
                     data-nombre="Conjunto Nike" 
-                    data-precio="170.000">Agregar al carrito
+                    data-precio="170.000"
+                    data-imagen="c3.jpg">Agregar al carrito
                 </button>
                 <br>
                 </div> 
@@ -421,7 +425,8 @@
                     </button>
                     <button class="btn btn-primary agregar-carrito" 
                     data-nombre="Conjunto Nike" 
-                    data-precio="170.000">Agregar al carrito
+                    data-precio="170.000"
+                    data-imagen="c4.jpg">Agregar al carrito
                 </button>
                 <br>
                 </div> 
@@ -446,7 +451,8 @@
                     </button>
                     <button class="btn btn-primary agregar-carrito" 
                     data-nombre="Conjunto Nike" 
-                    data-precio="170.000">Agregar al carrito
+                    data-precio="170.000"
+                    data-imagen="c5.jpg">Agregar al carrito
                 </button>
                 <br>
                 </div> 
@@ -471,7 +477,8 @@
                     </button>
                     <button class="btn btn-primary agregar-carrito" 
                     data-nombre="Conjunto Nike" 
-                    data-precio="170.000">Agregar al carrito
+                    data-precio="170.000"
+                    data-imagen="c6.jpg">Agregar al carrito
                 </button>
                 <br>
                 </div> 
@@ -496,7 +503,8 @@
                     </button>
                     <button class="btn btn-primary agregar-carrito" 
                     data-nombre="Conjunto Face" 
-                    data-precio="170.000">Agregar al carrito
+                    data-precio="170.000"
+                    data-imagen="c7.jpg">Agregar al carrito
                 </button>
                 <br>
                 </div> 
@@ -521,7 +529,8 @@
                     </button>
                     <button class="btn btn-primary agregar-carrito" 
                     data-nombre="Conjunto Nike" 
-                    data-precio="170.000">Agregar al carrito
+                    data-precio="170.000"
+                    data-imagen="c8.jpg">Agregar al carrito
                 </button>
                 <br>
                 </div> 
@@ -546,7 +555,8 @@
                     </button>
                     <button class="btn btn-primary agregar-carrito" 
                     data-nombre="Conjunto Nike" 
-                    data-precio="170.000">Agregar al carrito
+                    data-precio="170.000"
+                    data-imagen="c9.jpg">Agregar al carrito
                 </button>
                 <br>
                 </div> 
@@ -571,7 +581,8 @@
                     </button>
                     <button class="btn btn-primary agregar-carrito" 
                     data-nombre="Conjunto Nike" 
-                    data-precio="170.000">Agregar al carrito
+                    data-precio="170.000"
+                    data-imagen="c10.jpg">Agregar al carrito
                 </button>
                 <br>
                 </div> 
@@ -596,7 +607,8 @@
                     </button>
                     <button class="btn btn-primary agregar-carrito" 
                     data-nombre="Conjunto Nike" 
-                    data-precio="170.000">Agregar al carrito
+                    data-precio="170.000"
+                    data-imagen="c11.jpg">Agregar al carrito
                 </button>
                 <br>
                 </div> 
@@ -621,7 +633,8 @@
                     </button>
                     <button class="btn btn-primary agregar-carrito" 
                     data-nombre="Conjunto Balenciaga" 
-                    data-precio="170.000">Agregar al carrito
+                    data-precio="170.000"
+                    data-imagen="c12.jpg">Agregar al carrito
                 </button>
                 <br>
                 </div> 
@@ -646,7 +659,8 @@
                     </button>
                     <button class="btn btn-primary agregar-carrito" 
                     data-nombre="Conjunto Nike" 
-                    data-precio="170.000">Agregar al carrito
+                    data-precio="170.000"
+                    data-imagen="c13.jpg">Agregar al carrito
                 </button>
                 <br>
                 </div> 
@@ -671,7 +685,8 @@
                     </button>
                     <button class="btn btn-primary agregar-carrito" 
                     data-nombre="Conjunto Nike" 
-                    data-precio="170.000">Agregar al carrito
+                    data-precio="170.000"
+                    data-imagen="c14.jpg">Agregar al carrito
                 </button>
                 <br>
                 </div> 
@@ -696,7 +711,8 @@
                     </button>
                     <button class="btn btn-primary agregar-carrito" 
                     data-nombre="Conjunto Nike" 
-                    data-precio="170.000">Agregar al carrito
+                    data-precio="170.000"
+                    data-imagen="c15.jpg">Agregar al carrito
                 </button>
                 <br>
                 </div> 
@@ -721,7 +737,8 @@
                     </button>
                     <button class="btn btn-primary agregar-carrito" 
                     data-nombre="Conjunto Nike" 
-                    data-precio="170.000">Agregar al carrito
+                    data-precio="170.000"
+                    data-imagen="c16.jpg">Agregar al carrito
                 </button>
                 <br>
                 </div> 
@@ -746,7 +763,8 @@
                     </button>
                     <button class="btn btn-primary agregar-carrito" 
                     data-nombre="Conjunto Nike" 
-                    data-precio="170.000">Agregar al carrito
+                    data-precio="170.000"
+                    data-imagen="c17.jpg">Agregar al carrito
                 </button>
                 <br>
                 </div> 
@@ -771,7 +789,8 @@
                     </button>
                     <button class="btn btn-primary agregar-carrito" 
                     data-nombre="Conjunto Nike" 
-                    data-precio="170.000">Agregar al carrito
+                    data-precio="170.000"
+                    data-imagen="c18.jpg">Agregar al carrito
                 </button>
                 <br>
                 </div> 
@@ -825,7 +844,8 @@
         botonesAgregar.forEach(boton => {
             boton.addEventListener("click", () => {
                 const nombre = boton.dataset.nombre;
-                const precio = boton.dataset.precio;
+                const precio = parseFloat(boton.dataset.precio);
+                const imagen = boton.dataset.imagen;
 
                 let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
 
@@ -834,7 +854,7 @@
                 if (productoExistente) {
                     productoExistente.cantidad++;
                 } else {
-                    carrito.push({ nombre, precio, cantidad: 1 });
+                    carrito.push({ nombre, precio, cantidad: 1, imagen });
                 }
 
                 localStorage.setItem("carrito", JSON.stringify(carrito));
@@ -843,6 +863,8 @@
         });
     });
 </script>
+
+
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
