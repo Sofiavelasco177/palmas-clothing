@@ -5,7 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = $_POST['username'];
     $correo = $_POST['correo'];
     $fecha_nacimiento = $_POST['fecha_nacimiento'];
-    $password = password_hash($_POST['password'], PASSWORD_DEFAULT); // Encriptar la contraseña
+    $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
 
     $sql = "INSERT INTO usuarios (username, correo, fecha_nacimiento, password) 
             VALUES ('$username', '$correo', '$fecha_nacimiento', '$password')";
